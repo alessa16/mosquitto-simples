@@ -17,4 +17,6 @@ while counter < 10:
     teste = client.publish(MQTT_TOPIC,"counter : {}".format(counter))
     print(teste)
     time.sleep(0.1)
-client.disconnect()    
+client.disconnect()
+
+#sdshgh
